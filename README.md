@@ -49,7 +49,7 @@
 
 1. **Visit the Application**
    ```
-   https://readmecraft.netlify.app
+   https://readme-craft.netlify.app
    ```
 
 2. **Enter Your GitHub Username**
