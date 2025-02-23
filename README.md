@@ -92,8 +92,8 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/tarunerror/readmecraft.git
-   cd readmecraft
+   git clone https://github.com/tarunerror/readmeCraft.git
+   cd readmeCraft
    ```
 
 2. **Install Dependencies**
