@@ -49,7 +49,7 @@
 
 1. **Visit the Application**
    ```
-   https://profile-readme.netlify.app/
+   [https://profile-readme.netlify.app/](https://profile-readme.netlify.app/)
    ```
 
 2. **Enter Your GitHub Username**
