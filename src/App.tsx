@@ -238,7 +238,7 @@ function App() {
         </div>
 
         <div className="text-center spacing-responsive">
-          <h1 className="gradient-text mb-2 sm:mb-4">DevFolio - GitHub Profile README Generator</h1>
+          <h1 className="gradient-text mb-2 sm:mb-4">ReadMeCraft - GitHub Profile README Generator</h1>
           <p className="text-responsive text-gray-600 dark:text-gray-300 mb-4 sm:mb-6">Create an awesome GitHub profile README in minutes</p>
           <button
             onClick={toggleTheme}
