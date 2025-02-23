@@ -54,26 +54,40 @@ export const generateMarkdown = ({
   theme = 'radical',
   language = 'en',
 }: ProfileData) => {
-  const techBadges = Object.entries(selectedTechs)
-    .flatMap(([category, techs]) =>
-      techs.filter(tech => tech.selected)
-        .map(tech => `![${tech.name}](${tech.badge})`)
-    )
-    .join(' ');
+  // Get GitHub username from socials
+  const githubUsername = socials.find(social => social.name === 'GitHub')?.value || name;
+
+  // Generate tech badges by category
+  const techStackSection = Object.entries(selectedTechs)
+    .map(([category, techs]) => {
+      const selectedTechs = techs.filter(tech => tech.selected);
+      if (selectedTechs.length === 0) return '';
+
+      return `
+<details>
+<summary><b>💻 ${category}</b></summary>
+<br>
+
+${selectedTechs.map(tech => `![${tech.name}](${tech.badge})`).join(' ')}
+
+</details>`;
+    })
+    .filter(section => section !== '')
+    .join('\n\n');
 
   const socialLinks = socials
     .filter(social => social.value)
     .map(social => {
       let url = '';
       switch (social.name) {
+        case 'GitHub':
+          url = `https://github.com/${social.value}`;
+          break;
         case 'Twitter':
           url = `https://twitter.com/${social.value}`;
           break;
         case 'LinkedIn':
           url = social.value;
-          break;
-        case 'Instagram':
-          url = `https://instagram.com/${social.value}`;
           break;
         default:
           url = social.value;
@@ -87,22 +101,6 @@ export const generateMarkdown = ({
     es: '¡Hola! 👋 Soy',
     fr: 'Salut ! 👋 Je suis',
   }[language];
-
-  // Add Dev.to articles section if enabled
-  const devToSection = showDevToArticles && devToArticles.length > 0
-    ? `
-<h2 align="center">📝 Latest Blog Posts</h2>
-
-<div align="center">
-
-${devToArticles.map(article => `
-<a href="${article.url}" target="_blank">
-  <img src="https://img.shields.io/badge/${encodeURIComponent(article.title)}-000000?style=for-the-badge&logo=dev.to&logoColor=white" alt="${article.title}" />
-</a>
-`).join('\n')}
-
-</div>`
-    : '';
 
   return `
 <div align="center">
@@ -119,12 +117,7 @@ ${devToArticles.map(article => `
   </a>
 </p>
 
-${socialLinks ? `
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=${name}&theme=${theme}&no-frame=true&margin-w=15&column=-1" alt="GitHub Trophies" />
-</div>
-
-<p align="center">${socialLinks}</p>` : ''}
+${socialLinks ? `<p align="center">${socialLinks}</p>` : ''}
 
 <div align="center">
   ${currentWork ? `<p>🔭 I'm currently working on ${currentWork}</p>` : ''}
@@ -135,33 +128,39 @@ ${socialLinks ? `
 
 <h2 align="center">🛠️ Technologies & Tools</h2>
 
-<div align="center">
-  <img src="https://github-readme-tech-stack.vercel.app/api/cards?title=&lineCount=3&theme=${theme}&line1=${encodeURIComponent(techBadges)}" alt="Tech Stack" />
-</div>
-
-${devToSection}
+${techStackSection}
 
 ${showStats ? `
+<h2 align="center">📊 GitHub Stats</h2>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${name}&show_icons=true&theme=${theme}&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true&theme=${theme}&hide_border=true&count_private=true" alt="GitHub Stats" />
 </div>` : ''}
 
 ${showTopLangs ? `
+<h2 align="center">📈 Top Languages</h2>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${name}&layout=compact&theme=${theme}&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${githubUsername}&layout=compact&theme=${theme}&hide_border=true" alt="Top Languages" />
 </div>` : ''}
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=${name}&theme=${theme}&hide_border=true" alt="GitHub Streak" />
-</div>
+${showTrophies ? `
+<h2 align="center">🏆 GitHub Trophies</h2>
 
 <div align="center">
-  <img src="https://github-contribution-stats.vercel.app/api/?username=${name}" alt="Contribution Stats" />
-</div>
+  <img src="https://github-profile-trophy.vercel.app/?username=${githubUsername}&theme=${theme}&no-frame=true&margin-w=15&column=-1" alt="GitHub Trophies" />
+</div>` : ''}
+
+<h2 align="center">🔥 GitHub Streak</h2>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=${name}&theme=${theme}&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=${githubUsername}&theme=${theme}&hide_border=true" alt="GitHub Streak" />
 </div>
+
+${showProfileViews ? `
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=${githubUsername}&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+</div>` : ''}
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />

@@ -223,10 +223,9 @@ function App() {
   return (
     <div className="min-h-screen py-4 sm:py-8 px-2 sm:px-4 lg:px-8 transition-colors duration-300">
       <div className="max-w-4xl mx-auto spacing-responsive">
-        {/* GitHub Link - Updated styling */}
         <div className="flex justify-end mb-4">
           <a
-            href="https://github.com/tarunerror/readmeCraft"
+            href="https://github.com/tarunerror/readmecraft"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-indigo-100 dark:hover:bg-indigo-900 text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-all duration-300 transform hover:scale-105"

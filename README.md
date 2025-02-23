@@ -1,16 +1,16 @@
-# ReadmeCraft - GitHub Profile README Generator 🚀
+# ReadMeCraft - GitHub Profile README Generator 🚀
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=1200&q=80" alt="DevFolio Banner" width="100%" />
+  <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=1200&q=80" alt="ReadMeCraft Banner" width="100%" />
   
-  [![GitHub stars](https://img.shields.io/github/stars/tarunerror/devfolio-readme-maker?style=for-the-badge&color=4f46e5)](https://github.com/tarunerror/devfolio-readme-maker/stargazers)
-  [![GitHub forks](https://img.shields.io/github/forks/tarunerror/devfolio-readme-maker?style=for-the-badge&color=7c3aed)](https://github.com/tarunerror/devfolio-readme-maker/network)
-  [![GitHub issues](https://img.shields.io/github/issues/tarunerror/devfolio-readme-maker?style=for-the-badge&color=f43f5e)](https://github.com/tarunerror/devfolio-readme-maker/issues)
-  [![GitHub license](https://img.shields.io/github/license/tarunerror/devfolio-readme-maker?style=for-the-badge&color=10b981)](https://github.com/tarunerror/devfolio-readme-maker/blob/main/LICENSE)
+  [![GitHub stars](https://img.shields.io/github/stars/tarunerror/readmecraft?style=for-the-badge&color=4f46e5)](https://github.com/tarunerror/readmecraft/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/tarunerror/readmecraft?style=for-the-badge&color=7c3aed)](https://github.com/tarunerror/readmecraft/network)
+  [![GitHub issues](https://img.shields.io/github/issues/tarunerror/readmecraft?style=for-the-badge&color=f43f5e)](https://github.com/tarunerror/readmecraft/issues)
+  [![GitHub license](https://img.shields.io/github/license/tarunerror/readmecraft?style=for-the-badge&color=10b981)](https://github.com/tarunerror/readmecraft/blob/main/LICENSE)
   
   <h3>✨ Create Stunning GitHub Profile READMEs in Minutes! ✨</h3>
   
-  <p>DevFolio is a modern, feature-rich GitHub profile README generator built with React and TypeScript. Create beautiful, customized profiles that showcase your skills, projects, and achievements.</p>
+  <p>ReadMeCraft is a modern, feature-rich GitHub profile README generator built with React and TypeScript. Create beautiful, customized profiles that showcase your skills, projects, and achievements.</p>
 </div>
 
 ## 🌟 Features
@@ -49,7 +49,7 @@
 
 1. **Visit the Application**
    ```
-   [https://readme-craft.netlify.app/](https://readme-craft.netlify.app/)
+   https://readmecraft.netlify.app
    ```
 
 2. **Enter Your GitHub Username**
@@ -92,8 +92,8 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/tarunerror/readmeCraft.git
-   cd readmeCraft
+   git clone https://github.com/tarunerror/readmecraft.git
+   cd readmecraft
    ```
 
 2. **Install Dependencies**
@@ -145,7 +145,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Tarun Gautam
 - GitHub: [@tarunerror](https://github.com/tarunerror)
-- LinkedIn: [Tarun Gautam](https://linkedin.com/in/tarunerror)
+- LinkedIn: [Tarun Gautam](https://linkedin.com/in/tarun-gautam)
 
 ## 🌟 Support
 
