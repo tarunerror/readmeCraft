@@ -49,7 +49,7 @@
 
 1. **Visit the Application**
    ```
-   [https://profile-readme.netlify.app/](https://profile-readme.netlify.app/)
+   [https://readme-craft.netlify.app/](https://readme-craft.netlify.app/)
    ```
 
 2. **Enter Your GitHub Username**
@@ -92,7 +92,7 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/tarunerror/devfolio-readme-maker.git
+   git clone https://github.com/tarunerror/readmeCraft.git
    cd devfolio-readme-maker
    ```
 
