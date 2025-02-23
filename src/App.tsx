@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Twitter, Linkedin, Instagram, Code2, Terminal, Hash, Binary, Cpu, Sun, Moon } from 'lucide-react';
+import { Github, Twitter, Linkedin, Instagram, Code2, Terminal, Hash, Binary, Cpu, Sun, Moon, Heart } from 'lucide-react';
 import { TechnologySelector } from './components/TechnologySelector';
 import { SocialLinks } from './components/SocialLinks';
 import { ProfileFeatures } from './components/ProfileFeatures';
@@ -221,38 +221,52 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen py-8 px-4 sm:px-6 lg:px-8 transition-colors duration-300">
-      <div className="max-w-4xl mx-auto space-y-8">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold gradient-text mb-4">DevFolio - GitHub Profile README Generator</h1>
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">Create an awesome GitHub profile README in minutes</p>
+    <div className="min-h-screen py-4 sm:py-8 px-2 sm:px-4 lg:px-8 transition-colors duration-300">
+      <div className="max-w-4xl mx-auto spacing-responsive">
+        {/* GitHub Link - Updated styling */}
+        <div className="flex justify-end mb-4">
+          <a
+            href="https://github.com/tarunerror/devfolio-readme-maker"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-indigo-100 dark:hover:bg-indigo-900 text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-all duration-300 transform hover:scale-105"
+            aria-label="View source on GitHub"
+          >
+            <Github className="w-5 h-5" />
+            <span className="font-medium">View on GitHub</span>
+          </a>
+        </div>
+
+        <div className="text-center spacing-responsive">
+          <h1 className="gradient-text mb-2 sm:mb-4">DevFolio - GitHub Profile README Generator</h1>
+          <p className="text-responsive text-gray-600 dark:text-gray-300 mb-4 sm:mb-6">Create an awesome GitHub profile README in minutes</p>
           <button
             onClick={toggleTheme}
-            className="btn btn-primary"
+            className="btn btn-primary inline-flex items-center"
           >
-            {isDarkTheme ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            {isDarkTheme ? <Sun className="w-4 h-4 sm:w-5 sm:h-5" /> : <Moon className="w-4 h-4 sm:w-5 sm:h-5" />}
             <span className="ml-2">{isDarkTheme ? 'Light Mode' : 'Dark Mode'}</span>
           </button>
         </div>
 
-        <div className="card p-6 space-y-6">
-          <div className="space-y-4">
+        <div className="card spacing-responsive">
+          <div className="spacing-responsive">
             <h2 className="section-title">Basic Information</h2>
             <div className="input-group">
               <label className="input-label" htmlFor="github-username">GitHub Username</label>
-              <div className="flex gap-4">
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
                 <input
                   type="text"
                   id="github-username"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Enter GitHub username"
-                  className="flex-1 px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  className="flex-1"
                 />
                 <button
                   onClick={() => fetchUserData(name)}
                   disabled={isLoading}
-                  className="btn btn-primary"
+                  className="btn btn-primary whitespace-nowrap"
                 >
                   {isLoading ? 'Loading...' : 'Fetch Data'}
                 </button>
@@ -260,7 +274,7 @@ function App() {
               {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="input-group">
                 <label className="input-label" htmlFor="title">Professional Title</label>
                 <input
@@ -269,7 +283,6 @@ function App() {
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                   placeholder="e.g., Full Stack Developer"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
 
@@ -281,7 +294,6 @@ function App() {
                   value={location}
                   onChange={(e) => setLocation(e.target.value)}
                   placeholder="e.g., San Francisco, CA"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
 
@@ -293,7 +305,6 @@ function App() {
                   value={company}
                   onChange={(e) => setCompany(e.target.value)}
                   placeholder="Current company"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
 
@@ -305,11 +316,10 @@ function App() {
                   value={website}
                   onChange={(e) => setWebsite(e.target.value)}
                   placeholder="Your website URL"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
 
-              <div className="input-group">
+              <div className="input-group sm:col-span-2">
                 <label className="input-label" htmlFor="email">Email</label>
                 <input
                   type="email"
@@ -317,7 +327,6 @@ function App() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Your email address"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
             </div>
@@ -329,15 +338,14 @@ function App() {
                 value={about}
                 onChange={(e) => setAbout(e.target.value)}
                 placeholder="Write a brief introduction about yourself"
-                className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 rows={4}
               />
             </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="spacing-responsive">
             <h2 className="section-title">Current Status</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="input-group">
                 <label className="input-label" htmlFor="current-work">Current Work</label>
                 <input
@@ -346,7 +354,6 @@ function App() {
                   value={currentWork}
                   onChange={(e) => setCurrentWork(e.target.value)}
                   placeholder="What are you working on?"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
 
@@ -358,7 +365,6 @@ function App() {
                   value={learning}
                   onChange={(e) => setLearning(e.target.value)}
                   placeholder="What are you learning?"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
 
@@ -370,7 +376,6 @@ function App() {
                   value={collaboration}
                   onChange={(e) => setCollaboration(e.target.value)}
                   placeholder="Looking to collaborate on..."
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
 
@@ -382,25 +387,26 @@ function App() {
                   value={funFact}
                   onChange={(e) => setFunFact(e.target.value)}
                   placeholder="Share a fun fact about yourself"
-                  className="w-full px-4 py-2 rounded-lg border focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
             </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="spacing-responsive">
             <h2 className="section-title">Technologies</h2>
-            {technologies.map((category, categoryIndex) => (
-              <TechnologySelector
-                key={category.category}
-                technologies={category.techs}
-                onToggle={(techIndex) => handleTechnologyToggle(categoryIndex, techIndex)}
-                category={category.category}
-              />
-            ))}
+            <div className="space-y-6">
+              {technologies.map((category, categoryIndex) => (
+                <TechnologySelector
+                  key={category.category}
+                  technologies={category.techs}
+                  onToggle={(techIndex) => handleTechnologyToggle(categoryIndex, techIndex)}
+                  category={category.category}
+                />
+              ))}
+            </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="spacing-responsive">
             <h2 className="section-title">Social Links</h2>
             <SocialLinks
               socials={socials}
@@ -408,7 +414,7 @@ function App() {
             />
           </div>
 
-          <div className="space-y-4">
+          <div className="spacing-responsive">
             <h2 className="section-title">Profile Features</h2>
             <ProfileFeatures
               showStats={showStats}
@@ -425,7 +431,7 @@ function App() {
           </div>
 
           {devToArticles.length > 0 && (
-            <div className="space-y-4">
+            <div className="spacing-responsive">
               <h2 className="section-title">Latest Dev.to Articles</h2>
               <DevToArticles articles={devToArticles} />
             </div>
@@ -465,9 +471,21 @@ function App() {
             onClick={handleGenerateMarkdown}
             className="w-full btn btn-primary flex items-center justify-center gap-2"
           >
-            <Code2 className="w-5 h-5" />
+            <Code2 className="w-4 h-4 sm:w-5 sm:h-5" />
             Generate README
           </button>
+        </div>
+
+        <div className="mt-8 text-center text-sm text-gray-600 dark:text-gray-400">
+          Made with <Heart className="w-4 h-4 inline text-red-500 mx-1" /> by{' '}
+          <a
+            href="https://github.com/tarunerror"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 dark:text-indigo-400 hover:underline"
+          >
+            Tarun Gautam
+          </a>
         </div>
       </div>
     </div>

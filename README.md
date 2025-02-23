@@ -1,149 +1,133 @@
 # DevFolio - GitHub Profile README Generator 🚀
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/1234567/example.gif" alt="DevFolio Demo" width="600" />
+  <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=1200&q=80" alt="DevFolio Banner" width="100%" />
   
-  [![GitHub stars](https://img.shields.io/github/stars/yourusername/devfolio?style=for-the-badge&color=4f46e5)](https://github.com/yourusername/devfolio/stargazers)
-  [![GitHub forks](https://img.shields.io/github/forks/yourusername/devfolio?style=for-the-badge&color=7c3aed)](https://github.com/yourusername/devfolio/network)
-  [![GitHub issues](https://img.shields.io/github/issues/yourusername/devfolio?style=for-the-badge&color=f43f5e)](https://github.com/yourusername/devfolio/issues)
-  [![GitHub license](https://img.shields.io/github/license/yourusername/devfolio?style=for-the-badge&color=10b981)](https://github.com/yourusername/devfolio/blob/main/LICENSE)
+  [![GitHub stars](https://img.shields.io/github/stars/tarunerror/devfolio-readme-maker?style=for-the-badge&color=4f46e5)](https://github.com/tarunerror/devfolio-readme-maker/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/tarunerror/devfolio-readme-maker?style=for-the-badge&color=7c3aed)](https://github.com/tarunerror/devfolio-readme-maker/network)
+  [![GitHub issues](https://img.shields.io/github/issues/tarunerror/devfolio-readme-maker?style=for-the-badge&color=f43f5e)](https://github.com/tarunerror/devfolio-readme-maker/issues)
+  [![GitHub license](https://img.shields.io/github/license/tarunerror/devfolio-readme-maker?style=for-the-badge&color=10b981)](https://github.com/tarunerror/devfolio-readme-maker/blob/main/LICENSE)
+  
+  <h3>✨ Create Stunning GitHub Profile READMEs in Minutes! ✨</h3>
+  
+  <p>DevFolio is a modern, feature-rich GitHub profile README generator built with React and TypeScript. Create beautiful, customized profiles that showcase your skills, projects, and achievements.</p>
 </div>
 
-<p align="center">
-  <strong>Create stunning GitHub profile READMEs in minutes! ✨</strong>
-</p>
+## 🌟 Features
 
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-demo">Demo</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-usage">Usage</a> •
-  <a href="#-contributing">Contributing</a> •
-  <a href="#-license">License</a>
-</p>
+- 🎨 **Beautiful Modern Design**
+  - Multiple themes and layouts
+  - Dark mode support
+  - Responsive design for all devices
+  - Real-time preview
 
-## ✨ Features
+- 📊 **GitHub Integration**
+  - Automatic profile data fetching
+  - GitHub stats and graphs
+  - Repository showcases
+  - Contribution calendar
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/palette.svg" width="32" />
-        <br />Beautiful Themes
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/code-2.svg" width="32" />
-        <br />Tech Stack Showcase
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/trophy.svg" width="32" />
-        <br />GitHub Stats
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/link.svg" width="32" />
-        <br />Social Links
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/book-open.svg" width="32" />
-        <br />Dev.to Integration
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/moon.svg" width="32" />
-        <br />Dark Mode
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/eye.svg" width="32" />
-        <br />Live Preview
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/lucide-icons/lucide/icons/download.svg" width="32" />
-        <br />One-Click Export
-      </td>
-    </tr>
-  </table>
-</div>
+- 💻 **Tech Stack Showcase**
+  - 100+ technology badges
+  - Customizable categories
+  - Beautiful visual representation
+  - Easy selection interface
 
-- 🎨 **Beautiful, modern UI** with dark mode support
-- 📊 Integrated GitHub statistics and achievements
-- 🏆 GitHub trophies and contribution graphs
-- 💻 Comprehensive tech stack showcase
-- 🔗 Social media and coding profile integration
-- 📝 Dev.to blog posts integration
-- 🌈 Multiple themes and customization options
-- 📱 Fully responsive design
-- ⚡ Real-time preview
-- 🔄 Easy updates and maintenance
+- 🔗 **Social Integration**
+  - Multiple platform support
+  - Custom badge generation
+  - Automatic link formatting
+  - Profile view counter
 
-## 🎥 Demo
+- 📝 **Content Features**
+  - Dev.to article integration
+  - Custom sections
+  - Markdown support
+  - Dynamic typing text
 
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?auto=format&fit=crop&w=2000&q=80" alt="DevFolio Interface" width="800" />
-</div>
+## 🚀 Quick Start
 
-Try it live at: [devfolio.example.com](https://devfolio.example.com)
+1. **Visit the Application**
+   ```
+   https://devfolio-readme-maker.netlify.app
+   ```
 
-## 🛠️ Tech Stack
+2. **Enter Your GitHub Username**
+   - Click "Fetch Data" to automatically import your profile information
 
-- **Frontend Framework**: React with TypeScript
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Markdown**: React Markdown
-- **Animations**: Framer Motion
-- **Build Tool**: Vite
-- **Package Manager**: npm
+3. **Customize Your Profile**
+   - Select technologies
+   - Add social links
+   - Choose display options
+   - Preview in real-time
 
-## 📦 Installation
+4. **Generate and Download**
+   - Click "Generate README"
+   - Copy or download the generated markdown
+   - Add to your GitHub profile
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/devfolio.git
-```
+## 💻 Tech Stack
 
-2. Navigate to the project directory:
-```bash
-cd devfolio
-```
+- **Frontend Framework**
+  - React 18
+  - TypeScript
+  - Vite
 
-3. Install dependencies:
-```bash
-npm install
-```
+- **Styling**
+  - Tailwind CSS
+  - CSS Modules
+  - Framer Motion
 
-4. Start the development server:
-```bash
-npm run dev
-```
+- **Components**
+  - Custom React Components
+  - Lucide React Icons
+  - React Markdown
 
-## 🚀 Usage
+- **Development**
+  - ESLint
+  - Prettier
+  - Husky
 
-1. Enter your GitHub username
-2. Fill in your professional details
-3. Select your tech stack
-4. Add social media links
-5. Choose profile features
-6. Preview your README in real-time
-7. Click "Generate README" to download
+## 🛠️ Development Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/tarunerror/devfolio-readme-maker.git
+   cd devfolio-readme-maker
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start Development Server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for Production**
+   ```bash
+   npm run build
+   ```
 
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
 
 1. Fork the repository
-2. Create your feature branch:
-```bash
-git checkout -b feature/AmazingFeature
-```
-3. Commit your changes:
-```bash
-git commit -m 'Add some AmazingFeature'
-```
-4. Push to the branch:
-```bash
-git push origin feature/AmazingFeature
-```
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
 5. Open a Pull Request
 
 ## 📝 License
@@ -152,23 +136,29 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
-- [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy)
-- [Shields.io](https://shields.io/)
-- [Simple Icons](https://simpleicons.org/)
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) for statistics integration
+- [Shields.io](https://shields.io) for beautiful badges
+- [Dev.to API](https://dev.to/api) for blog integration
+- [Lucide Icons](https://lucide.dev) for beautiful icons
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Tarun Gautam
+- GitHub: [@tarunerror](https://github.com/tarunerror)
+- LinkedIn: [Tarun Gautam](https://linkedin.com/in/tarun-gautam)
 
-Project Link: [https://github.com/yourusername/devfolio](https://github.com/yourusername/devfolio)
+## 🌟 Support
+
+If you found this project helpful, please consider:
+
+- ⭐ Starring the repository
+- 🔀 Forking it for your own use
+- 📢 Sharing it with others
 
 ---
 
 <div align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
+  Made with ❤️ by <a href="https://github.com/tarunerror">Tarun Gautam</a>
   
   <p>If you found this project helpful, please consider giving it a ⭐️!</p>
-  
-  [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/yourusername)
 </div>
