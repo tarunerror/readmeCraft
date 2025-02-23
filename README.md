@@ -93,7 +93,7 @@
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/tarunerror/readmeCraft.git
-   cd devfolio-readme-maker
+   cd readmeCraft
    ```
 
 2. **Install Dependencies**
