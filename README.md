@@ -49,7 +49,7 @@
 
 1. **Visit the Application**
    ```
-   https://devfolio-readme-maker.netlify.app
+   https://profile-readme.netlify.app/
    ```
 
 2. **Enter Your GitHub Username**
@@ -145,7 +145,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Tarun Gautam
 - GitHub: [@tarunerror](https://github.com/tarunerror)
-- LinkedIn: [Tarun Gautam](https://linkedin.com/in/tarun-gautam)
+- LinkedIn: [Tarun Gautam](https://linkedin.com/in/tarunerror)
 
 ## 🌟 Support
 
