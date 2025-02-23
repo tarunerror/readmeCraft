@@ -1,4 +1,4 @@
-# DevFolio - GitHub Profile README Generator 🚀
+# ReadmeCraft - GitHub Profile README Generator 🚀
 
 <div align="center">
   <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=1200&q=80" alt="DevFolio Banner" width="100%" />
