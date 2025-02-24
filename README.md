@@ -4,7 +4,7 @@
   <h1>🚀 ReadMeCraft</h1>
   <p><strong>Create Stunning GitHub Profile READMEs in Minutes!</strong></p>
 
-  [![Live Demo](https://img.shields.io/badge/LIVE-DEMO-9cf?style=for-the-badge&logo=netlify&logoColor=white)](https://readmecraft.netlify.app)
+  [![Live Demo](https://img.shields.io/badge/LIVE-DEMO-9cf?style=for-the-badge&logo=netlify&logoColor=white)](https://readme-craft.netlify.app)
   [![GitHub Stars](https://img.shields.io/github/stars/tarunerror/readmecraft?style=for-the-badge&color=yellow&logo=github)](https://github.com/tarunerror/readmecraft/stargazers)
   [![GitHub Forks](https://img.shields.io/github/forks/tarunerror/readmecraft?style=for-the-badge&color=blue&logo=github)](https://github.com/tarunerror/readmecraft/network)
   [![GitHub Issues](https://img.shields.io/github/issues/tarunerror/readmecraft?style=for-the-badge&color=red&logo=github)](https://github.com/tarunerror/readmecraft/issues)
@@ -73,8 +73,8 @@
 
 1. **Clone & Install**
    ```bash
-   git clone https://github.com/tarunerror/readmecraft.git
-   cd readmecraft
+   git clone https://github.com/tarunerror/readmeCraft.git
+   cd readmeCraft
    npm install
    ```
 
