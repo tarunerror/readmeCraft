@@ -5,9 +5,9 @@
   <p><strong>Create Stunning GitHub Profile READMEs in Minutes!</strong></p>
 
   [![Live Demo](https://img.shields.io/badge/LIVE-DEMO-9cf?style=for-the-badge&logo=netlify&logoColor=white)](https://readme-craft.netlify.app)
-  [![GitHub Stars](https://img.shields.io/github/stars/tarunerror/readmecraft?style=for-the-badge&color=yellow&logo=github)](https://github.com/tarunerror/readmecraft/stargazers)
-  [![GitHub Forks](https://img.shields.io/github/forks/tarunerror/readmecraft?style=for-the-badge&color=blue&logo=github)](https://github.com/tarunerror/readmecraft/network)
-  [![GitHub Issues](https://img.shields.io/github/issues/tarunerror/readmecraft?style=for-the-badge&color=red&logo=github)](https://github.com/tarunerror/readmecraft/issues)
+  [![GitHub Stars](https://img.shields.io/github/stars/tarunerror/readmecraft?style=for-the-badge&color=yellow&logo=github)](https://github.com/tarunerror/readmeCraft/stargazers)
+  [![GitHub Forks](https://img.shields.io/github/forks/tarunerror/readmecraft?style=for-the-badge&color=blue&logo=github)](https://github.com/tarunerror/readmeCraft/network)
+  [![GitHub Issues](https://img.shields.io/github/issues/tarunerror/readmecraft?style=for-the-badge&color=red&logo=github)](https://github.com/tarunerror/readmeCraft/issues)
 
   <p align="center">
     <a href="#-features">Features</a> •
