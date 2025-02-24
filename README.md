@@ -1,134 +1,123 @@
-# ReadMeCraft - GitHub Profile README Generator 🚀
+![ReadMeCraft Banner](https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=1776&auto=format&fit=crop)
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=1200&q=80" alt="ReadMeCraft Banner" width="100%" />
-  
-  [![GitHub stars](https://img.shields.io/github/stars/tarunerror/readmecraft?style=for-the-badge&color=4f46e5)](https://github.com/tarunerror/readmecraft/stargazers)
-  [![GitHub forks](https://img.shields.io/github/forks/tarunerror/readmecraft?style=for-the-badge&color=7c3aed)](https://github.com/tarunerror/readmecraft/network)
-  [![GitHub issues](https://img.shields.io/github/issues/tarunerror/readmecraft?style=for-the-badge&color=f43f5e)](https://github.com/tarunerror/readmecraft/issues)
-  [![GitHub license](https://img.shields.io/github/license/tarunerror/readmecraft?style=for-the-badge&color=10b981)](https://github.com/tarunerror/readmecraft/blob/main/LICENSE)
-  
-  <h3>✨ Create Stunning GitHub Profile READMEs in Minutes! ✨</h3>
-  
-  <p>ReadMeCraft is a modern, feature-rich GitHub profile README generator built with React and TypeScript. Create beautiful, customized profiles that showcase your skills, projects, and achievements.</p>
+  <h1>🚀 ReadMeCraft</h1>
+  <p><strong>Create Stunning GitHub Profile READMEs in Minutes!</strong></p>
+
+  [![Live Demo](https://img.shields.io/badge/LIVE-DEMO-9cf?style=for-the-badge&logo=netlify&logoColor=white)](https://readmecraft.netlify.app)
+  [![GitHub Stars](https://img.shields.io/github/stars/tarunerror/readmecraft?style=for-the-badge&color=yellow&logo=github)](https://github.com/tarunerror/readmecraft/stargazers)
+  [![GitHub Forks](https://img.shields.io/github/forks/tarunerror/readmecraft?style=for-the-badge&color=blue&logo=github)](https://github.com/tarunerror/readmecraft/network)
+  [![GitHub Issues](https://img.shields.io/github/issues/tarunerror/readmecraft?style=for-the-badge&color=red&logo=github)](https://github.com/tarunerror/readmecraft/issues)
+
+  <p align="center">
+    <a href="#-features">Features</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#-getting-started">Getting Started</a> •
+    <a href="#-contributing">Contributing</a> •
+    <a href="#-support">Support</a>
+  </p>
 </div>
 
 ## 🌟 Features
 
-- 🎨 **Beautiful Modern Design**
-  - Multiple themes and layouts
-  - Dark mode support
-  - Responsive design for all devices
-  - Real-time preview
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/lucide-icons/lucide/raw/main/icons/wand-2.svg" width="40" height="40" />
+        <br />
+        <b>AI-Powered</b>
+        <br />
+        Smart content suggestions
+      </td>
+      <td align="center">
+        <img src="https://github.com/lucide-icons/lucide/raw/main/icons/palette.svg" width="40" height="40" />
+        <br />
+        <b>Beautiful Design</b>
+        <br />
+        Modern glass morphism UI
+      </td>
+      <td align="center">
+        <img src="https://github.com/lucide-icons/lucide/raw/main/icons/zap.svg" width="40" height="40" />
+        <br />
+        <b>Real-time Preview</b>
+        <br />
+        See changes instantly
+      </td>
+    </tr>
+  </table>
+</div>
 
-- 📊 **GitHub Integration**
-  - Automatic profile data fetching
-  - GitHub stats and graphs
-  - Repository showcases
-  - Contribution calendar
+### 🎨 Design Features
+- **Glass Morphism UI** - Stunning, modern interface with blur effects
+- **Dark Mode** - Easy on the eyes, day or night
+- **Responsive Design** - Perfect on all devices
+- **Smooth Animations** - Delightful micro-interactions
 
-- 💻 **Tech Stack Showcase**
-  - 100+ technology badges
-  - Customizable categories
-  - Beautiful visual representation
-  - Easy selection interface
+### 🛠️ Technical Features
+- **GitHub Integration** - Fetch your profile data automatically
+- **Tech Stack Showcase** - 100+ technology badges
+- **Social Links** - Connect all your profiles
+- **Dev.to Integration** - Display your latest articles
 
-- 🔗 **Social Integration**
-  - Multiple platform support
-  - Custom badge generation
-  - Automatic link formatting
-  - Profile view counter
+## 🚀 Tech Stack
 
-- 📝 **Content Features**
-  - Dev.to article integration
-  - Custom sections
-  - Markdown support
-  - Dynamic typing text
+<div align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+</div>
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-1. **Visit the Application**
-   ```
-   https://readme-craft.netlify.app
-   ```
-
-2. **Enter Your GitHub Username**
-   - Click "Fetch Data" to automatically import your profile information
-
-3. **Customize Your Profile**
-   - Select technologies
-   - Add social links
-   - Choose display options
-   - Preview in real-time
-
-4. **Generate and Download**
-   - Click "Generate README"
-   - Copy or download the generated markdown
-   - Add to your GitHub profile
-
-## 💻 Tech Stack
-
-- **Frontend Framework**
-  - React 18
-  - TypeScript
-  - Vite
-
-- **Styling**
-  - Tailwind CSS
-  - CSS Modules
-  - Framer Motion
-
-- **Components**
-  - Custom React Components
-  - Lucide React Icons
-  - React Markdown
-
-- **Development**
-  - ESLint
-  - Prettier
-  - Husky
-
-## 🛠️ Development Setup
-
-1. **Clone the Repository**
+1. **Clone & Install**
    ```bash
-   git clone https://github.com/tarunerror/readmeCraft.git
-   cd readmeCraft
-   ```
-
-2. **Install Dependencies**
-   ```bash
+   git clone https://github.com/tarunerror/readmecraft.git
+   cd readmecraft
    npm install
    ```
 
-3. **Start Development Server**
+2. **Start Development Server**
    ```bash
    npm run dev
    ```
 
-4. **Build for Production**
+3. **Build for Production**
    ```bash
    npm run build
    ```
 
+## 📁 Project Structure
+
+```
+src/
+├── components/         # React components
+│   ├── AboutMe/       # About section component
+│   ├── Header/        # App header component
+│   └── ...           # Other components
+├── utils/             # Utility functions
+├── types/             # TypeScript types
+└── styles/            # CSS and styling files
+```
+
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+We love contributions! Here's how you can help:
 
 1. Fork the repository
-2. Create your feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## 💖 Support
+
+If you find ReadMeCraft helpful, please:
+
+- ⭐ Star the repository
+- 🐦 Share on social media
+- 🐛 Report bugs or suggest features
 
 ## 📝 License
 
@@ -136,29 +125,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) for statistics integration
-- [Shields.io](https://shields.io) for beautiful badges
-- [Dev.to API](https://dev.to/api) for blog integration
-- [Lucide Icons](https://lucide.dev) for beautiful icons
-
-## 📧 Contact
-
-Tarun Gautam
-- GitHub: [@tarunerror](https://github.com/tarunerror)
-- LinkedIn: [Tarun Gautam](https://linkedin.com/in/tarun-gautam)
-
-## 🌟 Support
-
-If you found this project helpful, please consider:
-
-- ⭐ Starring the repository
-- 🔀 Forking it for your own use
-- 📢 Sharing it with others
-
----
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+- [Shields.io](https://shields.io)
+- [Lucide Icons](https://lucide.dev)
 
 <div align="center">
-  Made with ❤️ by <a href="https://github.com/tarunerror">Tarun Gautam</a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%" />
   
-  <p>If you found this project helpful, please consider giving it a ⭐️!</p>
+  <p>Made with ❤️ by <a href="https://github.com/tarunerror">Tarun Gautam</a></p>
+  
+  <p>If you found this project helpful, please consider giving it a ⭐!</p>
 </div>
