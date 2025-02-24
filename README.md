@@ -131,6 +131,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%" />
+
+<a href="https://instagram.com/tan.error">
+    <img src="https://img.shields.io/badge/Follow-%40tan.error-ff69b4?style=social&logo=instagram" alt="Instagram Follow">
+</a>
   
   <p>Made with ❤️ by <a href="https://github.com/tarunerror">Tarun Gautam</a></p>
   
